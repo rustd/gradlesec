@@ -1,6 +1,7 @@
 apply plugin: 'java'
 apply plugin: 'maven-publish'
 
+
 group = 'com.github.jitpack'
 version = '2.0'
 
