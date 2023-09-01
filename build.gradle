@@ -1,6 +1,6 @@
 apply plugin: 'java'
 apply plugin: 'maven-publish'
-
+apply plugin: 'org.sonarqube'
 
 group = 'com.github.jitpack'
 version = '2.0'
@@ -12,9 +12,6 @@ repositories {
   mavenCentral()
 }
 
-plugins {
-  id "org.sonarqube" version "4.2.1.3168"
-}
 
 sonar {
   properties {
